@@ -1,4 +1,4 @@
-import react  from 'react'
+import AppName from "./components/AppName"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
         <div>
           <center className='todo-container'>
-            <h1>TODO APP</h1>
+            <AppName/>
 
             <div class="container text-center">
               <div class="row">
