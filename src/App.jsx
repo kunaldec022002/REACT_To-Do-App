@@ -1,4 +1,9 @@
-import AppName from "./components/AppName"
+import AppName from "./components/AppName";
+import AddToDo from "./components/AddToDo";
+import AddToDoItem from "./components/AddToDoItem";
+import AddToDoItem2 from "./components/AddToDoItem2";
+import './css/App.css';
+
 
 
 function App() {
@@ -8,53 +13,15 @@ function App() {
         <div>
           <center className='todo-container'>
             <AppName/>
+            <AddToDo/>
 
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-6">
-                  <input type="text" placeholder='Enterr Todo here' />
-                </div>
-                <div class="col-4">
-                  <input type='date'/>
-                </div>
-                <div class="col-2">
-                 <button type="button" class="btn btn-success">Add</button>
-                </div>
-              </div>
+            <div className="items-container">
+
+              <AddToDoItem/>
+              <AddToDoItem2/>
+
             </div>
-            <br/>
-
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-6">
-                 Buy Milk
-                </div>
-                <div class="col-4">
-                  4/10/2023
-                </div>
-                <div class="col-2">
-                 <button type="button" class="btn btn-danger">Delete</button>
-                </div>
-              </div>
-            </div>
-            <br/>
-
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-6">
-                 Go to College
-                </div>
-                <div class="col-4">
-                  4/10/2023
-                </div>
-                <div class="col-2">
-                 <button type="button" class="btn btn-danger">Delete</button>
-                </div>
-              </div>
-            </div>
-
-            
-
+           
           </center>
 
         </div>

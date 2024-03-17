@@ -1,7 +1,7 @@
 function AppName(){
   return(
     <div>
-      <h1>TODO APP</h1>
+      <h1 className="todo-app">TODO APP</h1>
     </div>
   )
 }
