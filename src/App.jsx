@@ -22,6 +22,10 @@ function App() {
     {
       name : 'Kunal',
       dueDate :  'current'
+    },
+    {
+      name : ' mobile',
+      dueDate : '12/3/2024'
     }
   ]
 
